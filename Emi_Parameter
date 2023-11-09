@@ -1,0 +1,20 @@
+using System;
+
+namespace Parameters;
+
+class Program
+{
+	public static void Main()
+	{// pinaikling console.writeline siya
+		Name("Mwehehheehe");
+		Name("Eyyyyyy");
+		Name("Heueheuehue");
+
+	}
+	public static void Name(string sayanything) 
+    {// ito yung parameters, sa loob ng ()
+		Console.WriteLine(sayanything);
+		/* tapos yung string nameey, tinawag sa
+		main method*/
+	}
+}
